@@ -16,8 +16,10 @@ class TextPost extends FeedItem {
 }
 class ImagePost extends FeedItem {
   String imageUrl;
+  // TODO 1: เขียนคอนสตรัคเตอร์สำหรับ ImagePost
   ImagePost(String author, int likes, this.imageUrl):super(author,likes);
   @override
+  // TODO 2: เขียนทับ (override) เมธอด renderWidget() เพื่อแสดงผลโพสต์รูปภาพ
 void renderWidget(){
     print("📝 โพสต์ข้อความ โดย $author");
     print("   \"$imageUrl\"");
