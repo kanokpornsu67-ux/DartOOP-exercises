@@ -59,6 +59,6 @@ void main() {
   myProfile.age = 20;
   
   // TODO 5: พิมพ์อายุออกทางคอนโซลโดยใช้ Getter ที่คุณสร้างขึ้นใน TODO 1
-  print("อายุปัจจุบัน :${myProfile.age}");
+  print(myProfile.age);
 }
 
